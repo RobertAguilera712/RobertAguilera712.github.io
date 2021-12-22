@@ -1,0 +1,36 @@
+:root{
+    --red: #ff5562;
+    --black: #1b1b1b;
+    --dark-gray: #2a2a2a;
+}
+
+body{
+    background-color: var(--black) !important;
+    color: #eee;
+}
+
+.bg-dark{
+    background-color: var(--dark-gray) !important;
+}
+
+.nav-link, .navbar-brand, .footer{
+    color: var(--red) !important;
+}
+
+.nav-link{
+    border-bottom: 2px solid transparent;
+}
+
+.nav-link.active{
+    color: #ddd !important;
+    border-color: #888;
+}
+
+.nav-link:hover{
+    color: #fff !important;
+    border-color: #666;
+}
+
+.nav-item:hover{
+    background-color: #444;
+}
