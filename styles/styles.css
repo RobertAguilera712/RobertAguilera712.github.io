@@ -54,12 +54,12 @@ h1{
     background-color: #444;
 }
 
-.card{
+.project-card{
     width: 18rem;
     height: 25rem;
 }
 
-.card-body{
+.project-card .card-body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
