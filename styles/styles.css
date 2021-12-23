@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@900&family=Roboto:wght@400;500&display=swap');
+
 :root{
     --red: #ff5562;
     --black: #1b1b1b;
@@ -7,14 +9,31 @@
 body{
     background-color: var(--black) !important;
     color: #eee;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Archivo', sans-serif;
+}
+
+h1{
+    color: #dc3545;
 }
 
 .bg-dark{
     background-color: var(--dark-gray) !important;
 }
 
+.navbar-brand{
+    font-family: 'Archivo', sans-serif;
+}
+
 .nav-link, .navbar-brand, .footer{
     color: var(--red) !important;
+}
+
+.nav-link, .footer{
+    font-weight: 500;
 }
 
 .nav-link{
@@ -33,4 +52,15 @@ body{
 
 .nav-item:hover{
     background-color: #444;
+}
+
+.card{
+    width: 18rem;
+    height: 25rem;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
