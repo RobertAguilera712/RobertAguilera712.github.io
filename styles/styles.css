@@ -45,12 +45,9 @@ nav .nav-link.active{
     border-color: #888;
 }
 
-nav .nav-link:hover{
+nav .nav-link:hover[href]{
     color: #fff !important;
     border-color: #666;
-}
-
-nav .nav-item:hover{
     background-color: #444;
 }
 
