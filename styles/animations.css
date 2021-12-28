@@ -1,4 +1,4 @@
-@keyframes fade-in-left {
+/* @keyframes fade-in-left {
    from{
        opacity: 0;
        transform: translateX(-100%);
@@ -37,5 +37,26 @@
 
 .card.show{
     transform: translateX(0);
+    opacity: 1;
+} */
+
+.fade {
+    opacity: 0;
+    transition: all 2s ease-in-out;
+}
+
+.left {
+    transform: translateX(-100px);
+}
+
+.right {
+    transform: translateX(100px);
+}
+
+.left.normal, .right.normal{
+    transform: translateX(0);
+}
+
+.fade.normal {
     opacity: 1;
 }
